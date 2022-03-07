@@ -148,3 +148,47 @@ a {
   font-weight: 700;
   color: #1F2937;
 }
+
+.call-to-action-section {
+  padding: 90px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.call-to-action {
+  box-sizing: border-box;
+  width: 70%;
+  padding: 40px 100px;
+  display: flex;
+
+  border-radius:10px;
+  background: #3882F6
+}
+
+.call-to-action-container {
+  flex: 2;
+}
+
+.call-to-action-container * {
+  margin: 5px 0;
+}
+
+.call-to-action-container h2 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #E5E7EB;
+}
+
+.sign-up-container {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sign-up-container .sign-up {
+  border: 2px solid #E5E7EB;
+  width: 140px;
+  height: 35px;
+}
